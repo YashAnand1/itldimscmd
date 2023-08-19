@@ -1,4 +1,4 @@
-# Searching Method
+# UNDERSTANDING ITLDIMS COMMAND
 
 ## Topics
 - Setup
