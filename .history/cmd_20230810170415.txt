@@ -1,0 +1,6 @@
+go get -v github.com/spf13/cobra@upgrade
+cobra
+ 1906  cobra-cli
+ 1907  cobra-cli init
+ 1908  cobra-cli add get
+ go build main.go
