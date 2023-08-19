@@ -23,7 +23,7 @@
 # Command Combinations
 | S. No. | Command Combination               | Output Description                                      | Use-Case |
 |-------|-----------------------------------|---------------------------------------------------------|------------|
-| 1| `itldims` | Displays a message based on whether the user has connected to API or not | User can learn if the connection has been established or not |
+| 1| `itldims` | Displays a message to tell if conection was made with API or not | User can learn if the connection has been established or not |
 | 2| `itldims get servers`              | Displays all the running Servers with their Server IPs | Helps user see all the running servers |
 | 3| `itldims get types`       | Displays all the running Server Types | Helps User find all the server types |
 | 4| `itldims get attributes`         | Displays all Attributes   | Helps User find all the attributes |
