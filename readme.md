@@ -1,16 +1,16 @@
 # Searching Method
 
+## Topics
+- Setup
+- Workings of the code
+- Command Combinations
+- Outputs of Command Combinations
+
 ## Setup
 - [Install etcd](https://etcd.io/docs/v3.4/install/) and create a single node etcd (locally, if needed) by running the `etcd` command
 - Clone the [itldimscmd repository](https://github.com/yash-anand-fosteringlinux/itldimscmd)
 - In the API directory, `go run` [main.go](https://github.com/yash-anand-fosteringlinux/itldims-cmd/blob/main/itldims/main.go) for connecting with the API
 - Run the `itldims` related commands from the cmd directory
-
-## Topics
-- Workings of the code
-- Command Combinations
-- Outputs of Command Combinations
-- Setup
 
 # Workings of the code
 - This code utilises a modifed version of  [main.go](https://github.com/yash-anand-fosteringlinux/Commands-and-Outputs/blob/main/Old-Keys-Input/main.go), where the etcd API url `localhost:8181/servers/` is connected with for displaying all the key-values.
