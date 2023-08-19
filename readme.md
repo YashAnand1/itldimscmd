@@ -23,14 +23,15 @@
 # Command Combinations
 | S. No. | Command Combination               | Output Description                                      | Use-Case |
 |-------|-----------------------------------|---------------------------------------------------------|------------|
-| 1| `itldims get servers`              | Displays all the running Servers with their Server IPs | Helps user see all the running servers |
-| 2| `itldims get types`       | Displays all the running Server Types | Helps User find all the server types |
-| 3| `itldims get attributes`         | Displays all Attributes   | Helps User find all the attributes |
-| 4| `itldims get <Server IP>`         | Displays all Attribute values of a specific Server IP  | Helps user find values of a specific server IP|
-| 5| `itldims get <server Type>`         | Displays values of a specific server Type  | User can find values of a specific server Type |
-| 6| `itldims get <Attribute>`   | Displays values of a specific Attribute   | User can find all the RAMs of all servers |
-| 7| `itldims get <Server IP/Type> <attribute>` | Displays all value of attribute from specific server Type/IP | User can find if any attribute is 'None' on '10.249.221.22' |
-| 8| `itldims get <Server IP/Type/Attribute> <Value>` | Displays all Server IPs containing a specific value  | User can find if any attribute is 'None' on '10.249.221.22' |
+| 1| `itldims` | Displays a message based on whether the user has connected to API or not | User can learn if the connection has been established or not |
+| 2| `itldims get servers`              | Displays all the running Servers with their Server IPs | Helps user see all the running servers |
+| 3| `itldims get types`       | Displays all the running Server Types | Helps User find all the server types |
+| 4| `itldims get attributes`         | Displays all Attributes   | Helps User find all the attributes |
+| 5| `itldims get <Server IP>`         | Displays all Attribute values of a specific Server IP  | Helps user find values of a specific server IP|
+| 6| `itldims get <server Type>`         | Displays values of a specific server Type  | User can find values of a specific server Type |
+| 7| `itldims get <Attribute>`   | Displays values of a specific Attribute   | User can find all the RAMs of all servers |
+| 8| `itldims get <Server IP/Type> <attribute>` | Displays all value of attribute from specific server Type/IP | User can find if any attribute is 'None' on '10.249.221.22' |
+| 9| `itldims get <Server IP/Type/Attribute> <Value>` | Displays all Server IPs containing a specific value  | User can find if any attribute is 'None' on '10.249.221.22' |
 
 ## Outputs of Command Combinations
 The possible combinations along with their outputs for the `itldims get` command have been provided below. For any output which is too lengthy, `. . . . .` has been used at the end to signify that the mentioned output gives complete data but is not being shown here completely.
