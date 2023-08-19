@@ -14,7 +14,7 @@
 - Run the `itldims` related commands from the cmd directory
 
 # Workings of the code
-- This code utilises a modifed version of  [main.go](https://github.com/yash-anand-fosteringlinux/Commands-and-Outputs/blob/main/Old-Keys-Input/main.go), where the etcd API url `localhost:8181/servers/` is connected with for displaying all the key-values.
+- This code utilises a modifed version of  [main.go](https://github.com/yash-anand-fosteringlinux/itldimscmd/blob/main/api/main.go), where the etcd API url `localhost:8181/servers/` is connected with for displaying all the key-values.
 - Data from the API Server is fetched and then the parsing of the data is done before the user inputs their argument/s to process the data from the API Server.
 - `itldims` command is used to check connection with the API Server and `itldims get` subcommand is used to search user arguments from the API Server.
 -  The method of placing user arguments into `localhost:8181/servers/<ServerType>/<ServerIP>/<Attribute>` is not used and grep like search is run through the data of `localhost:8181/servers`.
