@@ -207,4 +207,5 @@ Server IP: <IP>
 ----------------------------
 ```
 The idea is to display all the servers containing or running a specific attribute value.      
-**Use Case:** Helps user learn about all the servers with 'vahanEmbassy' application. Here, `itldims get vahanEmbassy` command would be used.
+**Use Case:** Helps user learn about all the servers with 'vahanEmbassy' application.                  
+Here, `itldims get vahanEmbassy` command would be used.
