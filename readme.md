@@ -2,7 +2,7 @@
 
 ## Setup
 - [Install etcd](https://etcd.io/docs/v3.4/install/) and create a single node etcd (locally, if needed) by running the `etcd` command
-- Clone the [itldims directory](https://github.com/yash-anand-fosteringlinux/itldims-cmd/tree/main/itldims)
+- Clone the [itldimscmd repository](https://github.com/yash-anand-fosteringlinux/itldimscmd)
 - In the API directory, `go run` [main.go](https://github.com/yash-anand-fosteringlinux/itldims-cmd/blob/main/itldims/main.go) for connecting with the API
 - Run the `itldims` related commands from the cmd directory
 
