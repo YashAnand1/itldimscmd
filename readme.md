@@ -5,6 +5,7 @@
 - Workings of the code
 - Command Combinations
 - Outputs of Command Combinations
+- Current Priority
 
 ## Setup
 - [Install etcd](https://etcd.io/docs/v3.4/install/) and create a single node etcd (locally, if needed) by running the `etcd` command
@@ -196,8 +197,14 @@ RAM:32GB
 Server IP: 10.246.40.142
 RAM:32GB
 ----------------------------
-
-Server IP: 10.246.40.139
-RAM:32GB
----------------------------
 ```
+
+## Current Priority
+I am working on the `itldims get <value>` command in order to have it give the output in the form of:
+```
+Server IP: <IP>
+<Attribute>:<Value>
+----------------------------
+```
+The idea is to display all the servers containing or running a specific attribute value. 
+**Use Case:** Helps user learn about all the servers with 'vahanEmbassy' application. Here, `itldims get vahanEmbassy` command would be used.
